@@ -364,6 +364,24 @@ footer::before {
 }
 
 @media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .menu {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1.2rem;
+  }
+
+  .logo {
+    margin-bottom: -1.5rem;
+  }
+
+  .h1{
+    font-size: 2.5rem;
+  }
+
   .sobre-nos {
     padding: 2rem 1rem;
   }
@@ -384,6 +402,24 @@ footer::before {
 }
 
 @media (max-width: 480px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .menu {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1.2rem;
+  }
+
+  .logo {
+    margin-bottom: -1.5rem;
+  }
+
+  .h1{
+    font-size: 2.5rem;
+  }
+
   .sobre-nos h2 {
     font-size: 1.75rem;
   }
@@ -397,4 +433,16 @@ footer::before {
     width: 100%;
     margin-top: 1rem;
   }
+}
+
+/* -------- In Memory -------- */
+
+.phrases {
+  font-size: 1.75rem;
+  color: #003c78;
+  font-weight: 200;
+  font-family: 'Epilogue', sans-serif;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  text-align: center;
 }
