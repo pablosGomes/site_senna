@@ -442,7 +442,41 @@ footer::before {
   color: #003c78;
   font-weight: 200;
   font-family: 'Epilogue', sans-serif;
+  margin: 1rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
   text-align: center;
+}
+
+.ayrton-senna {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.hero-subtitle {
+  background: #ffffff;
+  padding: 0.5rem 1rem 0;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.hero-subtitle h2{
+  font-size: 1.75rem;
+  color: #00a8e9;
+  font-weight: 600;
+  font-family: 'Epilogue', sans-serif;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.hero-card {
+  background-color: #e7e7e7;
 }
