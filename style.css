@@ -114,7 +114,7 @@ nav a:hover::after,
 
 .victorytitle h2 {
   font-size: 1.75rem;
-  color: #003c78;
+  color: #00a8e9;
   font-weight: 600;
   font-family: 'Epilogue', sans-serif;
   margin-bottom: 1rem;
@@ -469,14 +469,47 @@ footer::before {
   margin-top: 2rem;
 }
 
-.hero-container {
+.hero-container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
   text-align: center;
   padding: 50px 0;
+  
 }
 
-.hero-card {
-  background-color: #e7e7e7;
+.hero-card{
+  width: 70%;
+  background-color: #ffca00;
+  border: 1px solid #003c78;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-card:hover {
+  transform: translateX(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);;
+}
+
+.hero-card:active{
+  transform: scale(0.98);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+.hero-card p {
+  margin-top: 15px;
+  font-size: 0.95em;
+  color: #393781;
+}
+
+.hero-figure img{
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  margin-bottom: 10px;
 }
